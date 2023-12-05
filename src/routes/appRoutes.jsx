@@ -6,6 +6,7 @@ import Welcome1 from "../pages/welcome/Welcome1/Welcome1";
 import Welcome2 from "../pages/welcome/Welcome2/Welcome2";
 import Welcome3 from "../pages/welcome/Welcome3/Welcome3";
 import Welcome from "../pages/welcome/Welcome";
+import Signin from "../pages/Signin/Signin";
 
 export const appRoutes = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const appRoutes = createBrowserRouter([
       {
         path: "/welcome",
         element: <Welcome />,
+      },
+      {
+        path: "/signin",
+        element: <Signin />,
       },
     ],
   },
